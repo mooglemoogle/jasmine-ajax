@@ -104,7 +104,7 @@ describe('FakeRequest', function() {
 
     request.setRequestHeader('X-Header1', 'value1');
 
-    expect(request.requestHeaders['X-Header1']).toEqual('value1');
+    expect(request.requestHeaders['X-Header1']).toEqual('value123');
 
     request.open();
 
